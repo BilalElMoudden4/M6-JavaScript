@@ -73,7 +73,7 @@ function obtenerCaracterHexadecimal(numero) {
     if (numero >= 0 && numero <= 9) {
         return numero.toString(); // Si es un número del 0 al 9, retorna el mismo número como string.
     } else {
-        // Si es mayor a 9, retorna el carácter hexadecimal correspondiente (A, B, C, ...).
+        // Si es mayor a 9, retorna el carácter hexadecimal correspondiente (A, B, C, ...). 
         switch (numero) {
             case 10: return "A";
             case 11: return "B";
@@ -90,5 +90,5 @@ function obtenerCaracterHexadecimal(numero) {
 
 
 BuscaBinario();
-BuscaOctal();
-BuscaHexadecimal();
+BuscaOctal();   
+BuscaHexadecimal ();
