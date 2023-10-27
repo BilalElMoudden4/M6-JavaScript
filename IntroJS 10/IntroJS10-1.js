@@ -16,7 +16,7 @@ function esMiercoles(fecha) {
   
   const anyo1 = parseInt(prompt("Ingresa el primer año (entre 2000 y 2050):"));
   const anyo2 = parseInt(prompt("Ingresa el segundo año (entre 2000 y 2050):"));
-  
+    
   if (anyo1 >= 2000 && anyo1 <= 2050 && anyo2 >= 2000 && anyo2 <= 2050) {
     const primerMiercoles = encontrarPrimerMiercoles(anyo1, anyo2);
     if (primerMiercoles) {
